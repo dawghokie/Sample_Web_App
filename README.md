@@ -3,8 +3,8 @@ VueJS web app that consumes data from a REST API and displays the output in
 a [Naive](https://www.naiveui.com/en-US/dark/docs/introduction) Table
 
 # Specifics
-This app consumes data from this [Sample Server Repo](https://github.com/dawghokie/Sample_Server) 
-- 
+- This app consumes data from this [Sample Server Repo](https://github.com/dawghokie/Sample_Server) 
+
 
 # Moving Forward
 - Extract `fetch` calls from TableComponent into an Utility Service 
