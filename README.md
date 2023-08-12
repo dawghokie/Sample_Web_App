@@ -4,6 +4,8 @@ a [Naive](https://www.naiveui.com/en-US/dark/docs/introduction) Table
 
 # Specifics
 - This app consumes data from this [Sample Server Repo](https://github.com/dawghokie/Sample_Server) 
+- The Table is feature rich and setup to quickly add filtering & seraching
+- The Table has pagination implemented and can handle large datasets
 
 
 # Moving Forward
