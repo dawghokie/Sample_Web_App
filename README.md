@@ -1,16 +1,16 @@
 # Overview
-VueJS web app that consumes data from a REST API and displays the output in 
-a [Naive](https://www.naiveui.com/en-US/dark/docs/introduction) Table
+VueJS TS web app that consumes data from a REST API and displays the output in 
+a [Naive](https://www.naiveui.com/en-US/dark/components/data-table) Table
 
 # Specifics
-- This app consumes data from this [Sample Server Repo](https://github.com/dawghokie/Sample_Server) 
+- This app consumes data from this [Sample Server Repo](https://github.com/dawghokie/Sample_Server_DotNet) 
 - The Table is feature rich and setup to quickly add filtering & seraching
 - The Table has pagination implemented and can handle large datasets
 
-
 # Moving Forward
-- Extract `fetch` calls from TableComponent into an Utility Service 
-- Use [Pinia](https://pinia.vuejs.org/) for state management
+- Use [Pinia](https://pinia.vuejs.org/) for state management because of it's modular & intuitive store
+- Design modular components for re-useability 
+- Add Loading Icon & Modals for Error Messages
 
 ## Project Setup
 
