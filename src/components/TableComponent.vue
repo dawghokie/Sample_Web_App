@@ -29,7 +29,20 @@
       {
         title: 'First Name',
         key: 'first_Name',
-        defaultSortOrder: false
+        defaultSortOrder: false,
+        filterOptions: [
+        {
+          label: 'Peyton',
+          value: 'Peyton'
+        },
+        {
+          label: 'Nothing',
+          value: 'Nothing'
+        }
+        ],
+        filter (value, row) {
+          return ~row.first_Name.indexOf(value)
+        }
       },
       {
         title: 'Last Name',
@@ -55,7 +68,20 @@
       {
         title: 'First Name',
         key: 'first_Name',
-        defaultSortOrder: false
+        defaultSortOrder: false,
+        filterOptions: [
+        {
+          label: 'Peyton',
+          value: 'Peyton'
+        },
+        {
+          label: 'Nothing',
+          value: 'Nothing'
+        }
+        ],
+        filter (value, row) {
+          return ~row.first_Name.indexOf(value)
+        }
       },
       {
         title: 'Last Name',
