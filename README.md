@@ -8,7 +8,7 @@ a [Naive](https://www.naiveui.com/en-US/dark/components/data-table) Table
 - The Table has pagination implemented and can handle large datasets
 
 # Moving Forward
-- Use [Pinia](https://pinia.vuejs.org/) for state management because of it's modular & intuitive store
+- Use [Pinia](https://pinia.vuejs.org/) for state management because it's modular & intuitive
 - Design modular components for re-useability 
 - Add Loading Icon & Modals for Error Messages
 
